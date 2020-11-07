@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputPath>$(AppData)\ash\mod</OutputPath>
+    <AssemblyName>Base</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModuleAPI\ModuleAPI.csproj" />
+  </ItemGroup>
+
+</Project>
